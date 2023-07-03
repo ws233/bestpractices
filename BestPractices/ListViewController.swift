@@ -19,19 +19,7 @@ struct Section {
 
 class ListViewController: UITableViewController {
     
-    let dataSource = [
-        Section(title: "View", items: [
-            Item(title: "IBOutlet", action: #selector(UINavigationController.showOutlet)),
-            Item(title: "View Interface", action: #selector(UINavigationController.showInterface)),
-            Item(title: "Button Action", action: #selector(UINavigationController.showButtonAction)),
-            Item(title: "Button Cell", action: #selector(UINavigationController.showCellButton)),
-            Item(title: "Button Delegate", action: #selector(UINavigationController.showCellDelegate)),
-        ]),
-        Section(title: "Model", items: [
-        ]),
-        Section(title: "Controller", items: [
-        ])
-    ]
+    var dataSource: [Section] = mainSections { didSet { tableView.reloadData() } }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         dataSource.count
