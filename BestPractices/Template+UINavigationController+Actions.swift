@@ -63,6 +63,17 @@ extension UINavigationController {
         pushViewController(controller!, animated: true)
     }
     
+    @IBAction func showTableViewCombination() {
+        var controller: UIViewController?
+        if isBest {
+            let name = String(describing: BestCombinationTableViewController.self)
+            let storyboard = UIStoryboard(name: name, bundle: nil)
+            controller = storyboard.instantiateInitialViewController()
+        } else {
+            controller = WorstCombinationTableViewController()
+        }
+        pushViewController(controller!, animated: true)
+    }
 }
 
 // MARK: - Private

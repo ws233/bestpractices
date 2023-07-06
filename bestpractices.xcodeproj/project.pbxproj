@@ -26,6 +26,12 @@
 		666E1C2B2A52E241000B4582 /* MockLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666E1C292A52E241000B4582 /* MockLoadingViewController.xib */; };
 		666E1C2F2A52EEFD000B4582 /* LoadingIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666E1C2D2A52EEFD000B4582 /* LoadingIndicatorViewController.xib */; };
 		666E1C322A530934000B4582 /* LoadingContentViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E1C312A530934000B4582 /* LoadingContentViewController+Actions.swift */; };
+		666E1C342A544E03000B4582 /* WorstCombinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E1C332A544E03000B4582 /* WorstCombinationTableViewController.swift */; };
+		666E1C372A5450F9000B4582 /* BestCombinationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E1C352A5450F9000B4582 /* BestCombinationTableViewController.swift */; };
+		666E1C3B2A5457FF000B4582 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E1C392A5457FF000B4582 /* TextFieldTableViewCell.swift */; };
+		666E1C3C2A5457FF000B4582 /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666E1C3A2A5457FF000B4582 /* TextFieldTableViewCell.xib */; };
+		666E1C3E2A545D03000B4582 /* BestCombinationTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666E1C3D2A545D03000B4582 /* BestCombinationTableViewController.storyboard */; };
+		666E1C402A546080000B4582 /* CombinationTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666E1C3F2A546080000B4582 /* CombinationTableViewDataSource.swift */; };
 		668337452978131700AE3F7D /* WorstCompositeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668337442978131700AE3F7D /* WorstCompositeView.swift */; };
 		66833749297814B500AE3F7D /* WorstInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66833747297814B500AE3F7D /* WorstInterfaceViewController.swift */; };
 		6683374A297814B500AE3F7D /* WorstInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66833748297814B500AE3F7D /* WorstInterfaceViewController.xib */; };
@@ -52,6 +58,7 @@
 		66B60A0129719383004460B3 /* Template+UINavigationController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B60A0029719383004460B3 /* Template+UINavigationController+Actions.swift */; };
 		66B60A03297196DF004460B3 /* BestOutletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B60A02297196DF004460B3 /* BestOutletViewController.swift */; };
 		66B60A0629719B71004460B3 /* BestOutletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B60A0529719B71004460B3 /* BestOutletView.swift */; };
+		66E4821A2A5465DF0012F681 /* CombinationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E482192A5465DF0012F681 /* CombinationTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +83,12 @@
 		666E1C292A52E241000B4582 /* MockLoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MockLoadingViewController.xib; sourceTree = "<group>"; };
 		666E1C2D2A52EEFD000B4582 /* LoadingIndicatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingIndicatorViewController.xib; sourceTree = "<group>"; };
 		666E1C312A530934000B4582 /* LoadingContentViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingContentViewController+Actions.swift"; sourceTree = "<group>"; };
+		666E1C332A544E03000B4582 /* WorstCombinationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorstCombinationTableViewController.swift; sourceTree = "<group>"; };
+		666E1C352A5450F9000B4582 /* BestCombinationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCombinationTableViewController.swift; sourceTree = "<group>"; };
+		666E1C392A5457FF000B4582 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		666E1C3A2A5457FF000B4582 /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		666E1C3D2A545D03000B4582 /* BestCombinationTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BestCombinationTableViewController.storyboard; sourceTree = "<group>"; };
+		666E1C3F2A546080000B4582 /* CombinationTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationTableViewDataSource.swift; sourceTree = "<group>"; };
 		668337442978131700AE3F7D /* WorstCompositeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorstCompositeView.swift; sourceTree = "<group>"; };
 		66833747297814B500AE3F7D /* WorstInterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorstInterfaceViewController.swift; sourceTree = "<group>"; };
 		66833748297814B500AE3F7D /* WorstInterfaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorstInterfaceViewController.xib; sourceTree = "<group>"; };
@@ -102,6 +115,7 @@
 		66B60A0029719383004460B3 /* Template+UINavigationController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Template+UINavigationController+Actions.swift"; sourceTree = "<group>"; };
 		66B60A02297196DF004460B3 /* BestOutletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestOutletViewController.swift; sourceTree = "<group>"; };
 		66B60A0529719B71004460B3 /* BestOutletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestOutletView.swift; sourceTree = "<group>"; };
+		66E482192A5465DF0012F681 /* CombinationTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +200,10 @@
 				661228E12989338900E8DFBA /* CompositeViewModel.swift */,
 				66A91FD02991197B009CC93E /* ButtonAndTitleViewController */,
 				66A91FF029925146009CC93E /* ThreeCellTableViewController.swift */,
+				666E1C392A5457FF000B4582 /* TextFieldTableViewCell.swift */,
+				666E1C3A2A5457FF000B4582 /* TextFieldTableViewCell.xib */,
+				666E1C3F2A546080000B4582 /* CombinationTableViewDataSource.swift */,
+				66E482192A5465DF0012F681 /* CombinationTableView.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -212,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				666E1C192A52DFD9000B4582 /* LoadingIndicator */,
+				666E1C332A544E03000B4582 /* WorstCombinationTableViewController.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -247,6 +266,8 @@
 			isa = PBXGroup;
 			children = (
 				666E1C302A52EF08000B4582 /* LoadingIndicator */,
+				666E1C352A5450F9000B4582 /* BestCombinationTableViewController.swift */,
+				666E1C3D2A545D03000B4582 /* BestCombinationTableViewController.storyboard */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -434,6 +455,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666E1C3E2A545D03000B4582 /* BestCombinationTableViewController.storyboard in Resources */,
 				6683374A297814B500AE3F7D /* WorstInterfaceViewController.xib in Resources */,
 				666E1C2F2A52EEFD000B4582 /* LoadingIndicatorViewController.xib in Resources */,
 				660FA0062971798500FFB19D /* LaunchScreen.storyboard in Resources */,
@@ -444,6 +466,7 @@
 				666E1C262A52E097000B4582 /* BestLoadingIndicatorViewController.xib in Resources */,
 				660FA0012971798200FFB19D /* Main.storyboard in Resources */,
 				66A91FCE29911643009CC93E /* ButtonAndTitleViewController.xib in Resources */,
+				666E1C3C2A5457FF000B4582 /* TextFieldTableViewCell.xib in Resources */,
 				66A91FF529925D77009CC93E /* BestCellButtonTableViewCell.xib in Resources */,
 				66A91FE129923DD1009CC93E /* WorstButtonActionViewController.xib in Resources */,
 			);
@@ -463,6 +486,7 @@
 				660F9FFA2971798200FFB19D /* AppDelegate.swift in Sources */,
 				66A91FDA29911E2E009CC93E /* UINavigationController+Actions.swift in Sources */,
 				66A91FC42991043C009CC93E /* WorstButtonActionViewController.swift in Sources */,
+				666E1C342A544E03000B4582 /* WorstCombinationTableViewController.swift in Sources */,
 				66A91FEA29924DCD009CC93E /* WorstButtonTableViewCell.swift in Sources */,
 				66A91FED29924E78009CC93E /* WorstButtonTableViewCellDelegate.swift in Sources */,
 				66A91FEF2992511F009CC93E /* BestCellButtonTableViewController.swift in Sources */,
@@ -470,6 +494,7 @@
 				666E1C252A52E097000B4582 /* BestLoadingIndicatorViewController.swift in Sources */,
 				666E1C322A530934000B4582 /* LoadingContentViewController+Actions.swift in Sources */,
 				660FA0132971802700FFB19D /* ListViewController.swift in Sources */,
+				666E1C3B2A5457FF000B4582 /* TextFieldTableViewCell.swift in Sources */,
 				66A91FD229911992009CC93E /* ButtonAndTitleViewModel.swift in Sources */,
 				66A91FFD29926F64009CC93E /* BestCellDelegateTableViewController.swift in Sources */,
 				66A91FFB29926EC3009CC93E /* WorstCellDelegateTableViewController.swift in Sources */,
@@ -487,6 +512,9 @@
 				66A91FE329923E86009CC93E /* PhotoLibraryButton.swift in Sources */,
 				66B60A0629719B71004460B3 /* BestOutletView.swift in Sources */,
 				666E1C222A52E073000B4582 /* WorstLoadingIndicatorViewController.swift in Sources */,
+				66E4821A2A5465DF0012F681 /* CombinationTableView.swift in Sources */,
+				666E1C372A5450F9000B4582 /* BestCombinationTableViewController.swift in Sources */,
+				666E1C402A546080000B4582 /* CombinationTableViewDataSource.swift in Sources */,
 				66A91FCA29910CEB009CC93E /* BestButtonActionViewController.swift in Sources */,
 				66B60A03297196DF004460B3 /* BestOutletViewController.swift in Sources */,
 			);

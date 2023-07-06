@@ -9,7 +9,8 @@ import UIKit
 
 let controllerList = [
     Section(title: "Container Controller", items: [
-        Item(title: "Loading Indicator", action: #selector(UINavigationController.showLoadingIndicator))
+        Item(title: "Loading Indicator", action: #selector(UINavigationController.showLoadingIndicator)),
+        Item(title: "Table View Combination", action: #selector(UINavigationController.showTableViewCombination)),
     ])
 
 ]
