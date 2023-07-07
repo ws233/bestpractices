@@ -46,6 +46,7 @@ extension UINavigationController {
         guard let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: identifier) as? ListViewController else {
             return
         }
+        controller.navigationItem.title = "Container View Controller"
         controller.dataSource = controllerList
         pushViewController(controller, animated: true)
     }
@@ -60,6 +61,7 @@ extension UINavigationController {
         } else {
             controller = WorstLoadingIndicatorViewController(nibName: nibName, bundle: nil)
         }
+        controller?.navigationItem.title = "Loading indicator"
         pushViewController(controller!, animated: true)
     }
     
@@ -72,6 +74,7 @@ extension UINavigationController {
         } else {
             controller = WorstCombinationTableViewController()
         }
+        controller?.navigationItem.title = "Table View Combination"
         pushViewController(controller!, animated: true)
     }
 }
